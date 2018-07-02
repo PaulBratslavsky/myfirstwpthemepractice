@@ -1,0 +1,11 @@
+html, body {
+    margin: 0 auto;
+    color: #333;
+    background:#eee;
+    font: sans-serif;
+}
+
+div {
+    width: 980px;
+    margin: auto;
+}
