@@ -20,4 +20,10 @@
     }
 
     add_action( 'init', 'pb_function_theme_setup'    );
+
+    // ADDS BACKGROUND IMAGE FEATURE IN WP CUSTOMIZER
+    add_theme_support( 'custom-background' );
+    // ADD CUSTOM HEADER FEATURE IN WP CUSTOMIZER
+    add_theme_support( 'custom-header' ); 
+    add_theme_support( 'post-thumbnails'); 
 ?>
