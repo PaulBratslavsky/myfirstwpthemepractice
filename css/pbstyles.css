@@ -1,12 +1,14 @@
-body {
-    color: #333;
-    background:#eee;
-    font: sans-serif;
+.menu-item {
+    text-decoration: none;
+    padding: 2px 10px;
 }
 
-.wrapper {
-    max-width: 980px;
-    margin: 0 auto;
-    background: #fff;
-    padding: 1em 2em;
+.menu-item a {
+    color: #eee;
 }
+
+.menu-item a:hover {
+    color: #aaa;
+    text-decoration: none;
+}
+
