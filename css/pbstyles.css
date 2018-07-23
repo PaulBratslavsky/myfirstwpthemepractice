@@ -1,5 +1,40 @@
-.menu-item {
+body {
+    margin: 0 auto;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content {
+    flex: 2;
+    padding: 10px 10px;
+}
+
+#sidebar {
+    flex: 1;
+    padding: 10px 10px;
+}
+
+.bg-blue {
+    background: #0962bb;
+}
+
+a {
     text-decoration: none;
+    color: #0962bb;
+}
+
+a:hover {
+    color: #aaa;
+    text-decoration: none;
+}
+
+
+.menu-item {
     padding: 2px 10px;
 }
 
@@ -12,3 +47,12 @@
     text-decoration: none;
 }
 
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 96%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+}

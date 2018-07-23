@@ -17,10 +17,10 @@
 ?> 
 
     <body <?php body_class( $my_classes ); ?> >
-        <div class="container">
-            <header>
-                <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
-                    <a class="navbar-brand" href="#">My Theme</a>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar navbar-dark bg-blue">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><?php bloginfo( 'title' ); ?></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -35,6 +35,7 @@
                             ); 
                         ?>
                     </div>
-                </nav>
-            </header>
+                </div>    
+            </nav>
+        </header>
             
